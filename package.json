@@ -1,6 +1,6 @@
 {
   "name": "uther-nest",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "private": false,
   "description": "Uther Node Siltium",
   "author": "Siltium",
@@ -33,12 +33,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-  "files": [
-    "/bin",
-    "/lib",
-    "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
-  ],
   "dependencies": {
     "@nestjs/apollo": "^10.1.6",
     "@nestjs/bull": "^0.6.2",
