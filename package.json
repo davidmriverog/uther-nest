@@ -1,6 +1,6 @@
 {
   "name": "uther-nest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Uther Node Siltium",
   "author": "David Miguel Rivero <davidmriverog@gmail.com> (ErCompa)",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.json",
-    "re-build":"rimraf dist && tsc -p tsconfig.json",
+    "re-build": "rimraf dist && tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +29,12 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "files": [
+    "/bin",
+    "/lib",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json"
+  ],
   "dependencies": {
     "@nestjs/apollo": "^10.1.6",
     "@nestjs/bull": "^0.6.2",
