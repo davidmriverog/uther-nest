@@ -1,14 +1,14 @@
 {
   "name": "uther-nest",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": false,
   "description": "Uther Node Siltium",
   "author": "Siltium",
   "contributors": [
     "David Rivero <davidmriverog@gmail.com>"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.json",
