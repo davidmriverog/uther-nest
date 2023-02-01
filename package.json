@@ -1,5 +1,5 @@
 {
-  "name": "@uther-node/api",
+  "name": "@uther-nest/api",
   "version": "1.0.0",
   "description": "Uther Node Siltium",
   "author": "David Miguel Rivero <davidmriverog@gmail.com> (ErCompa)",
