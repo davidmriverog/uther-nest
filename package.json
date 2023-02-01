@@ -1,5 +1,5 @@
 {
-  "name": "@uther-nest/api",
+  "name": "uther-nest",
   "version": "1.0.0",
   "description": "Uther Node Siltium",
   "author": "David Miguel Rivero <davidmriverog@gmail.com> (ErCompa)",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidmriverog/uther-node.git"
+    "url": "git+https://github.com/davidmriverog/uther-nest.git"
   },
   "keywords": [
     "uther-node",
@@ -21,13 +21,13 @@
     "nestjs",
     "siltium"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidmriverog/uther-node/issues"
+    "url": "https://github.com/davidmriverog/uther-nest/issues"
   },
-  "homepage": "https://github.com/davidmriverog/uther-node#readme",
+  "homepage": "https://github.com/davidmriverog/uther-nest#readme",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@nestjs/apollo": "^10.1.6",
