@@ -26,3 +26,7 @@ export * from "./cache/cache.config"
 
 // GrapHQL
 export * from "./graphql/base-graphql.class"
+
+// Uther Main
+export * from "./uther-main/uther-core.module"
+export * from "./uther-main/uther.module"

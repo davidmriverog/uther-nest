@@ -1,8 +1,12 @@
 {
   "name": "uther-nest",
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "private": false,
   "description": "Uther Node Siltium",
-  "author": "David Miguel Rivero <davidmriverog@gmail.com> (ErCompa)",
+  "author": "Siltium",
+  "contributors": [
+    "David Rivero <davidmriverog@gmail.com>"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
